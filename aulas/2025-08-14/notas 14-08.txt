@@ -1,0 +1,33 @@
+- zen of python
+- aprendendo a aprender: coursera
+
+python:
+- comentário
+    - em linha: `# Este é um comentário`
+    - multilinha:
+    ```
+        '''
+            comentário
+            multilinha
+        '''
+    ```
+    - docstring:
+    ```
+        def func():
+            """Faz tal coisa e tal coisa"""
+    ```
+
+
+- importando bibliotecas
+    - pip
+    - formas de importar:
+    ```
+        from x import *
+        from x import y, x, z
+    ```
+    ou
+    ```
+        import x
+        import x as y
+    ```
+- baixando bibliotecas

@@ -1,0 +1,38 @@
+1) Linguagem de programação:
+- interpretada
+- multiparadigma (com foco em orientação a objeto)
+- alto nível de abstração
+- suporte a módulos (extensiva)
+- dinâmicamente tipada e com inferência
+- case-sensitive
+
+
+2) PyCharm, Visual Studio Code, Jupyter
+
+
+3) Variável é um espaço reservado na memória que pode armazenar valores mutáveis, enquanto que uma constante armazena valores imutáveis definidos em sua declaração/inicialização.
+
+
+4) São tipos da linguagem Python:
+- Inteiros
+- Texto (str)
+- Booleanos
+- Decimais (float)
+
+
+5) Pode conter letras, traços e underline (_), mas deve iniciar com uma letra ou com o caractere '_' (underline) e não conter nenhum espaço. Uma variável não pode conter um identificador igual à uma palavra reservada da linguagem.
+
+
+6) Operadores lógicos, aritméticos, de comparação (ou relacionais), atribuição.
+
+
+7) input()
+
+
+8) print()
+
+
+9) Podemos fazer comentários single-line, usando o caractere "#" (jogo da velha), ou multi-line, com três aspas simples '''. Os comentários podem ser usados para esclarecer uma porção de código com uma explicação ou justificativa, por um código ter sido escrito de determinada maneira.
+
+
+10) Pode concatenar valores (ao aplicá-lo entre duas strings), efetuar soma aritmética (entre dois inteiros ou decimais)

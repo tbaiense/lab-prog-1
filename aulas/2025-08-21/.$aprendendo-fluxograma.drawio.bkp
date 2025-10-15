@@ -1,0 +1,118 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="z0Y_9XR-fxBCu_1B3Jcl">
+    <mxGraphModel dx="554" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-1" target="V_3IbBMTH6VtyivNOF3I-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-1" value="Início" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-6" target="V_3IbBMTH6VtyivNOF3I-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="249.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-6" value="anoNascimento&lt;div&gt;anoAtual&lt;/div&gt;&lt;div&gt;idade&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-7" target="V_3IbBMTH6VtyivNOF3I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-7" value="&lt;i&gt;ler&lt;/i&gt;&lt;div&gt;anoNascimento&lt;/div&gt;&lt;div&gt;anoAtual&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="205" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-11" target="V_3IbBMTH6VtyivNOF3I-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-11" value="idade = anoAtual - anoNascimento" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="185" y="370" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-14" target="V_3IbBMTH6VtyivNOF3I-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="259.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-14" value="&lt;div&gt;idade&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-20" target="V_3IbBMTH6VtyivNOF3I-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-25" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V_3IbBMTH6VtyivNOF3I-23">
+          <mxGeometry x="-0.5758" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-20" target="V_3IbBMTH6VtyivNOF3I-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-26" value="não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V_3IbBMTH6VtyivNOF3I-24">
+          <mxGeometry x="-0.5543" y="1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-20" value="idade &amp;gt;= 18" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="655" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-21" target="V_3IbBMTH6VtyivNOF3I-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-21" value="&quot;A pessoa é de maior&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="810" y="370" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-22" target="V_3IbBMTH6VtyivNOF3I-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="269.66666666666674" as="sourcePoint" />
+            <mxPoint x="880" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-22" value="&quot;A pessoa é de menor&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-30" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="874" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-99" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="834" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-100" target="V_3IbBMTH6VtyivNOF3I-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-108" value="não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V_3IbBMTH6VtyivNOF3I-102">
+          <mxGeometry x="-0.6" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-100" value="deseja&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;continuar o cálculo da idade&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="814" y="130" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-100" target="V_3IbBMTH6VtyivNOF3I-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-103" target="V_3IbBMTH6VtyivNOF3I-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-103" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="V_3IbBMTH6VtyivNOF3I-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_3IbBMTH6VtyivNOF3I-107" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V_3IbBMTH6VtyivNOF3I-106">
+          <mxGeometry x="-0.9461" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

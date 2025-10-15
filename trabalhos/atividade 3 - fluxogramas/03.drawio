@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram id="zOj9A_66f5U2f_vBNI4d" name="Page-1">
+    <mxGraphModel dx="1237" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvIZHf4UPDrymkQ_wFkr-1" target="ZvIZHf4UPDrymkQ_wFkr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-2" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="25" y="140" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.09523809523809523;" vertex="1" parent="ZvIZHf4UPDrymkQ_wFkr-5">
+          <mxGeometry width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-4" value="NUMERO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZvIZHf4UPDrymkQ_wFkr-5">
+          <mxGeometry x="55" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZvIZHf4UPDrymkQ_wFkr-6" target="ZvIZHf4UPDrymkQ_wFkr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Ler NUMERO" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZvIZHf4UPDrymkQ_wFkr-7" target="ZvIZHf4UPDrymkQ_wFkr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-7" value="NUMERO * 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvIZHf4UPDrymkQ_wFkr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZvIZHf4UPDrymkQ_wFkr-3" target="ZvIZHf4UPDrymkQ_wFkr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,388 @@
+1. 1
+
+2. 8
+
+3. As verificações estão usando o operador de comparação 'maior que', ao invés do 'menor que'.
+    O correto seria:
+
+        valor_compra = 350
+
+        if valor_compra <= 100:
+            desconto = 0
+        elif valor_compra <= 300:
+            desconto = 0.15
+        elif valor_compra <= 500:
+            desconto = 0.20
+        else:
+            desconto = 0.25
+
+        valor_final = valor_compra - (valor_compra * desconto)
+
+        print(f"O valor final da compra com desconto é: R$ {valor_final:.2f}")
+
+
+4. RESPOSTA: ====================================================================
+
+# 4
+
+idade = int(input("Digite sua idade: "))
+
+if idade >= 10 and idade <= 18:
+    print("Idade válida para o evento.")
+else:
+    print("Idade NÃO é válida para o evento")
+
+
+
+5. RESPOSTA: ====================================================================
+
+
+# 5
+
+numero = int(input("Digite um número: "))
+
+if numero == 1 or numero == 5 or numero == 10:
+    print(f"O número {numero} é um valor válido.")
+else:
+    print(f"Desculpe, mas o número {numero} é um valor inválido.")
+
+
+
+6. RESPOSTA: ====================================================================
+
+
+# 6
+
+pontJogA = int(input("Digite a pontuação do jogador A: "))
+pontJogB = int(input("Digite a pontuação do jogador B: "))
+
+if pontJogA == pontJogB:
+    print("As pontuações são iguais.")
+elif pontJogA > pontJogB:
+    print("O jogador A tem a maior pontuação.")
+else:
+    print("O jogador B tem a maior pontuação.")
+
+
+7. RESPOSTA: ====================================================================
+
+
+# 7
+
+numero = float(input("Digite um número: "))
+
+if numero == 0:
+    print("O número é nulo.")
+elif numero > 0:
+    print("O número é positivo.")
+else:
+    print("O número é negativo.")
+
+
+
+8. RESPOSTA: ====================================================================
+
+
+# 8
+
+finalista_1 = int(input("Digite a pontução do primeiro finalista: "))
+lugar_1 = finalista_1
+
+finalista_2 = int(input("Digite a pontução do segundo finalista: "))
+
+if finalista_2 > lugar_1:
+    lugar_1 = finalista_2
+    lugar_2 = finalista_1
+else:
+    lugar_2 = finalista_2
+
+finalista_3 = int(input("Digite a pontução do terceiro finalista: "))
+
+if finalista_3 > lugar_1:
+    antigo_lugar_1 = lugar_1
+    lugar_1 = finalista_3
+    lugar_3 = lugar_2
+    lugar_2 = antigo_lugar_1
+elif finalista_3 > lugar_2:
+    lugar_3 = lugar_2
+    lugar_2 = finalista_3
+else:
+    lugar_3 = finalista_3
+
+print(f"""
+1º Lugar: {lugar_1}
+2º Lugar: {lugar_2}
+3º Lugar: {lugar_3}
+""")
+
+
+# VERSAO DA PROF ==========================
+
+
+p1 = int(input("Pontuação de p1"))
+p2 = int(input("Pontuação de p2"))
+p3 = int(input("Pontuação de p3"))
+
+if p1 > p2 and p2 > p3:
+    print(f"Primeiro: {p1} \nSegundo: {p2} \nTerceiro: {p3}")
+elif p1 > p3 and p3 > p2:
+    print(f"Primeiro: {p1} \nSegundo: {p3} \nTerceiro: {p2}")
+elif p2 > p1 and p1 > p3:
+    print(f"Primeiro: {p2} \nSegundo: {p1} \nTerceiro: {p3}")
+elif p2 > p3 and p3 > p1:
+    print(f"Primeiro: {p2} \nSegundo: {p3} \nTerceiro: {p1}")
+elif p3 > p1 and p1 > p2:
+    print(f"Primeiro: {p3} \nSegundo: {p1} \nTerceiro: {p2}")
+else:
+    print(f"Primeiro: {p3} \nSegundo: {p2} \nTerceiro: {p1}")
+
+
+9. RESPOSTA: ====================================================================
+
+
+# 9
+
+nome = input("Nome do aluno: ")
+nota_prova = float(input("Nota da prova: "))
+nota_trabalho = float(input("Nota do trabalho: "))
+
+media = (nota_prova + nota_trabalho) / 2
+
+if media >= 7:
+    situacao = "APROVADO"
+else:
+    situacao = "REPROVADO"
+
+print(f"Situação do aluno '{nome}': {situacao}")
+
+
+10. RESPOSTA: ====================================================================
+
+
+# 10
+
+media_final = float(input("Média final: "))
+faltas = int(input("Número de faltas: "))
+
+min_nota = 7.0
+max_faltas = 31
+
+if media_final >= min_nota and faltas <= max_faltas:
+    print("Aprovado.")
+else:
+    if media_final < min_nota and faltas > max_faltas:
+        print("Reprovado por falta e por nota")
+    elif media_final < min_nota:
+        print("Reprovado por nota.")
+    else:
+        print("Reprovado por falta.")
+
+
+11. RESPOSTA: ====================================================================
+
+
+# 11
+
+salario_atual = float(input("Digite o salário atual: R$ "))
+
+if salario_atual <= 500:
+    reajuste = 0.15
+elif salario_atual <= 1000:
+    reajuste = 0.1
+else:
+    reajuste = 0.05
+
+salario_final = salario_atual + (salario_atual * reajuste)
+
+print(f"O novo salário será de: R$ {salario_final:.2f}")
+
+
+# VERSÃO DO PROFESSOR ==================
+
+
+salario = float(input("Digite o valor do salário atual: "))
+
+if salario < 500:
+    novo_salario = salario * 1.15
+elif salario <= 1000:
+    novo_salario = salario * 1.10
+else:
+    novo_salario = salario * 1.05
+
+print(f"Novo salário do funcionário: {novo_salario:.3f}")
+
+
+12. RESPOSTA: ====================================================================
+
+
+# 12
+
+idade = int(input("Insira a idade: "))
+
+if idade < 5:
+    print("Não há categoria para esta idade.")
+    exit(0)
+
+if idade <= 11:
+    categoria = "Infantil"
+    if idade <= 7: # 5 a 7 anos
+        categoria += " A"
+    else: # 8 a 11 anos
+        categoria += " B"
+elif idade <= 17:
+    categoria = "Juvenil"
+    if idade <= 13:
+        categoria += " A"
+    else:
+        categoria += " B"
+else:
+    categoria = "Adultos"
+
+
+print(f"Categoria: {categoria}")
+
+
+13. RESPOSTA: ====================================================================
+
+
+# 13
+
+salario_min = 1412.00
+
+valor_hr_aula = float(input("Valor da hora-aula: R$ "))
+aulas_mes = int(input("Número de aulas dadas: "))
+desconto_inss = int(input("Percentual de desconto do INSS (%): "))
+
+salario_parcial = aulas_mes * valor_hr_aula
+salario_liq = salario_parcial - (salario_parcial * (desconto_inss / 100))
+
+print(f"\nSeu salário líquido é: R$ {salario_liq}")
+
+if salario_liq > 10 * salario_min:
+    print("Parabéns pelo seu esforço!")
+elif salario_liq > 6 * salario_min:
+    print("Um dia você chega lá!")
+else:
+    print("Ah! Precisa se esforçar!")
+
+
+14. RESPOSTA: ====================================================================
+
+
+# 14
+
+nome = input("Nome do paciente: ")
+peso = float(input("Peso (kg): "))
+altura = float(input("Altura (m): "))
+
+imc = peso / (altura ** 2)
+
+if imc < 20:
+    faixa = "Abaixo do peso"
+elif imc < 25:
+    faixa = "Normal"
+elif imc < 35:
+    faixa = "Excesso de peso"
+elif imc < 50:
+    faixa = "Obesidade"
+else:
+    faixa = "Obsidade Mórbida"
+
+print(f"\nPaciente {nome}, sua faixa de risco é: {faixa}")
+
+
+15. RESPOSTA: ====================================================================
+
+
+# 15
+
+
+lado_a = float(input("Digite o lado A: "))
+lado_b = float(input("Digite o lado B: "))
+lado_c = float(input("Digite o lado C: "))
+
+lado_a_valido = lado_a > 0 and lado_a < lado_b + lado_c
+lado_b_valido = lado_b > 0 and lado_b < lado_a + lado_c
+lado_c_valido = lado_c > 0 and lado_c < lado_b + lado_a
+
+if not lado_a_valido or not lado_b_valido or not lado_c_valido:
+    print("Os valores informados não formam um triângulo.")
+else:
+    if lado_a == lado_b and lado_b == lado_c:
+        print("Os lados foram um triângulo equilátero")
+    elif lado_a == lado_b or lado_b == lado_c or lado_c == lado_a:
+        print("Os lados formam um triângulo isósceles.")
+    else:
+        print("Os lados formam um triângulo escaleno.")
+
+
+
+16. RESPOSTA: ====================================================================
+
+
+# 16
+
+numero = int(input("Digite um número inteiro: "))
+
+if numero % 3 == 0 and numero % 7 == 0:
+    print(f"O número {numero} é divisível por 3 e por 7 simultâneamente.")
+else:
+    print(f"O número {numero} NÃO é divisível por 3 e por 7 simultâneamente.")
+
+
+
+17. RESPOSTA: ====================================================================
+
+
+# 17
+
+salario_bruto = float(input("Valor do salário bruto: R$ "))
+prestacao = float(input("Valor da prestação: R$ "))
+
+if prestacao > salario_bruto * 0.3:
+    print("O empréstimo não pode ser concedido pois a prestação excede 30% do salário.")
+else:
+    print("Empréstimo concedido!")
+
+
+
+
+18. RESPOSTA: ====================================================================
+
+
+# 18
+
+salario = float(input("Qual o seu salário? R$ "))
+financiamento = float(input("Qual o valor do financiamento? R$ "))
+
+if financiamento <= salario * 5:
+    print("\nFinanciamento Concedido.")
+else:
+    print("\nFinanciamento Negado.")
+
+print("Obrigado por nos consultar.")
+
+
+19. RESPOSTA: ====================================================================
+
+
+# 19
+
+qtd_calcados = int(input("Quantos calçados você está comprando? "))
+
+valor_calcado = 49.90
+total_parcial = valor_calcado * qtd_calcados
+
+if qtd_calcados < 3:
+    desconto = 0.05
+else:
+    desconto = 0.15
+
+total_final = total_parcial - (total_parcial * desconto)
+
+print(f"""
+\nValor sem desconto: R$ {total_parcial:.2f}
+Valor com desconto: R$ {total_final:.2f}
+""")
+
+
