@@ -48,7 +48,7 @@ def obter_emprestimos(index_biblioteca, index_livro):
 
 def atualizar_estoque(valor, index_biblioteca, index_livro):
     if valor < 0:
-        return False# TODO: throw exception -> valor negativo
+        return False
 
     emprestimos_atual = obter_emprestimos(index_biblioteca, index_livro) 
 
@@ -56,7 +56,7 @@ def atualizar_estoque(valor, index_biblioteca, index_livro):
         return False
 
     if valor < emprestimos_atual:
-        return False # TODO: throw exception -> valor incompatível com empréstimos atuais
+        return False 
    
     try:
         mat_estoques[index_biblioteca][index_livro] = valor
@@ -67,7 +67,7 @@ def atualizar_estoque(valor, index_biblioteca, index_livro):
 
 def atualizar_emprestimo(valor, index_biblioteca, index_livro):
     if valor < 0:
-        return False # TODO: throw exception -> valor negativo
+        return False 
 
     estoque_atual = obter_estoque(index_biblioteca, index_livro)
     
@@ -75,7 +75,7 @@ def atualizar_emprestimo(valor, index_biblioteca, index_livro):
         return False
 
     if valor > estoque_atual:
-        return False # TODO: throw exception -> emprestimos não podem ser superior ao estoque
+        return False 
 
     try:
         mat_emprestimos[index_biblioteca][index_livro] = valor
@@ -110,3 +110,16 @@ def pesquisar_disponibilidade_livro(index_livro, quantia=1):
             disponivel_em.append(index_biblioteca)
 
     return disponivel_em
+
+def pesquisar_livros_qtd_emprestimos(qtd_emprestimos):
+    mat_livros_emprestimos = []
+
+    for index_livro in range(obter_qtd_livros()):
+        soma_emprestimos = 0
+        for index_biblioteca in range(obter_qtd_bibliotecas()):
+            soma_emprestimos += obter_emprestimos(index_biblioteca, index_livro)
+            
+        if soma_emprestimos >= qtd_emprestimos:
+            mat_livros_emprestimos.append([index_livro, soma_emprestimos])
+
+    return mat_livros_emprestimos                                          
